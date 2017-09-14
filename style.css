@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: #BFD58C;
+    font-family: arial;
+}
+
+.container {
+
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.header {display: flex;
+    min-height: 50vh;
+    background-image: url(https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-start  ;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: pink;
+}
+.header h1{
+ /*border: 2px solid pink;*/
+ /*padding: 0.6em;*/
+}
+ul {
+    display: flex;
+
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+
+}
+nav{
+
+    order:1;
+    background-color: #EBB23F;
+    line-height: 2em;
+}
+/*nav li{width: 100%;}*/
+nav a {
+    text-decoration: none;
+}
+section{
+    padding: 1em 0;
+}
+section:nth-of-type(even){
+    background-color: #B35B0E;
+}
+a:hover{
+    background-color: grey;
+}
+a{  text-align: center;
+    display: block;
+}
+li{
+width: 100%;
+}
