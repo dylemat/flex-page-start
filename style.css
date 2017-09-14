@@ -12,9 +12,10 @@ body {
 
 .container {
 
-    max-width: 710px;
+    max-width: 711px;
     margin: 0 auto;
 }
+
 
 .header {display: flex;
     min-height: 50vh;
